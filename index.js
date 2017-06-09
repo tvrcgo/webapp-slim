@@ -1,0 +1,2 @@
+
+require('egg').startCluster({})

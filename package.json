@@ -1,0 +1,27 @@
+{
+  "name": "webapp-slim",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "egg-bin dev",
+    "build-dll": "loop dll",
+    "build": "loop dev",
+    "release": "npm run build-dll && loop prod"
+  },
+  "keywords": [
+    "egg",
+    "react"
+  ],
+  "author": "tvrcgo",
+  "license": "MIT",
+  "dependencies": {
+    "egg": "^1.4.0",
+    "egg-view-ejs": "^1.1.0"
+  },
+  "devDependencies": {
+    "egg-bin": "^3.4.2",
+    "hyper-app": "0.0.5",
+    "webpack-compile-loop": "^0.3.6"
+  }
+}
