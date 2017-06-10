@@ -4,6 +4,6 @@ const app = new App()
 
 export default app.render(() => {
   return (
-    <span>Hello</span>
+    <h1>Hello</h1>
   )
 })

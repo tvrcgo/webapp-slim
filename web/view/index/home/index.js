@@ -10,9 +10,9 @@ app.mixin({}, css)
 export default app.render(() => {
   return (
     <div>
-      <div clazz='title'>Hello World !</div>
       <Hello />
-      <Button type='primary'>Primary</Button>
+      <p clazz='title'>Hello World !</p>
+      <div><Button type='primary'>Primary</Button> <Button>Normal</Button></div>
     </div>
   )
 })
