@@ -7,7 +7,8 @@
     "dev": "egg-bin dev",
     "build-dll": "loop dll",
     "build": "loop dev",
-    "release": "npm run build-dll && loop prod"
+    "release": "npm run build-dll && loop prod",
+    "test": "egg-bin test"
   },
   "keywords": [
     "egg",
@@ -22,6 +23,6 @@
   "devDependencies": {
     "egg-bin": "^3.4.2",
     "hyper-app": "0.0.5",
-    "webpack-compile-loop": "^0.3.6"
+    "webpack-compile-loop": "^0.4.0"
   }
 }
